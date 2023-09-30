@@ -1,0 +1,328 @@
+
+.container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100vH;
+}
+
+.bubbles {
+    position: absolute;
+    display: flex;
+}
+
+.bubbles span {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    margin: 0px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #ffffff44,
+    0 0 50px #ffffff,
+    0 0 100px #ffffff;
+    animation: animate 15s linear infinite;
+    animation-duration: 10s;
+    
+}
+
+.bubbles span:nth-child(even){
+
+    background: #fbf6c7;
+    box-shadow: 0 0 0 10px #fbf6c744,
+    0 0 50px #fbf6c7,
+    0 0 100px #fbf6c7;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0);
+    }
+    25%
+    {
+        transform: scale(0.5);
+    }
+    50%
+    {
+        transform: scale(0);
+    }
+    75%
+    {
+        transform: scale(0.5);
+    }
+    100%
+    {
+        transform: scale(0);
+    }
+}
+
+
+#s {
+    animation-duration: 5s;
+    margin-top: 700px;
+    margin-left:100px;
+    margin-bottom: 0px;
+}
+
+#s2 {
+    animation-duration: 6s;
+    margin-left: 500px;
+    margin-top: 600px;
+}
+#s3 {
+    animation-duration: 5s;
+    margin-top:50px;
+    margin-left: 250px;
+}
+#s4 {
+    animation-duration: 10s;
+    margin-top:400px;
+    margin-left:460px;
+}
+#s5 {
+    animation-duration: 4s;
+    margin-top:320px;
+    margin-left: 225px;
+}
+#s6 {
+    animation-duration: 7s;
+    margin-top:200px;
+    margin-left: 200px;
+}
+#s7 {
+    animation-duration: 20s;
+    margin-top:220px;
+    margin-left: 500px
+}
+#s8 {
+    animation-duration: 4s;
+    margin-top:375px;
+    margin-left: 350px;
+}
+#s9 {
+    animation-duration: 5s;
+    margin-top:525px;
+    margin-left: 700px;
+}
+#s10 {
+    animation-duration: 7.5s;
+    margin-top:325px;
+    margin-left: 600px;
+}
+#s11 {
+    animation-duration: 11s;
+    margin-top:100px;
+    margin-left: 400px;
+}
+#s12 {
+    animation-duration: 6s;
+    margin-top:140px;
+    margin-left: 280px;
+}
+#s13 {
+    animation-duration: 12s;
+    margin-top:350px;
+    margin-left: 120px;
+}
+#s14 {
+    animation-duration: 10s;
+    margin-top:500px;
+    margin-left:200px;
+}
+#s15 {
+    animation-duration: 8s;
+    margin-top:250px;
+    margin-left:370px;
+}
+#s16 {
+    animation-duration: 9s;
+    margin-top:520px;
+    margin-left: 375px;
+}
+#s17 {
+    animation-duration: 10s;
+    margin-top:450px;
+}
+#s18 {
+    animation-duration: 6s;
+    margin-top:100px;
+    margin-left: 120px;
+}
+#s19 {
+    animation-duration: 16s;
+    margin-top:100px;
+    margin-left: 900px;
+}
+#s20 {
+    animation-duration: 7s;
+    margin-top:150px;
+    margin-left: 750px;
+}
+
+#s21 {
+    animation-duration: 4.5s;
+    margin-top:50px;
+    margin-left:650px;
+}
+
+#s22 {
+    animation-duration: 13s;
+    margin-top:200px;
+    margin-left: 1000px;
+}
+#s23 {
+    animation-duration: 22s;
+    margin-top:650px;
+    margin-left:1010px;
+}
+#s24 {
+    animation-duration: 13s;
+    margin-top:400px;
+    margin-left: 900px;
+}
+#s25 {
+    animation-duration: 8s;
+    margin-top:30px;
+}
+#s26 {
+    animation-duration: 7s;
+    margin-top:550px;
+    margin-left: 1100px;
+}
+#s27 {
+    animation-duration: 8s;
+    margin-top:220px;
+    margin-left:1300px;
+}
+#s28 {
+    animation-duration: 5s;
+    margin-top:50px;
+    margin-left:1000px;
+}
+#s29 {
+    animation-duration: 10s;
+    margin-top:280px;
+    margin-left: 820px;
+}
+#s30 {
+    animation-duration: 6s;
+    margin-top:15px;
+    margin-left:1200px;
+}
+#s31 {
+    animation-duration: 4s;
+    margin-top:600px;
+    margin-left:40px;
+}
+#s32 {
+    animation-duration: 7s;
+    margin-top:440px;
+    margin-left: 540px;
+}
+#s33 {
+    animation-duration: 14s;
+    margin-top:400px;
+    margin-left: 720px
+}
+#s34 {
+    animation-duration: 20s;
+    margin-top:300px;
+    margin-left: 760px;
+}
+#s35 {
+    animation-duration: 5s;
+    margin-top:150px;
+    margin-left: 620px;
+}
+#s36 {
+    animation-duration: 10s;
+    margin-top:420px;
+    margin-left: 1080px;
+}
+#s37 {
+    animation-duration: 8.6s;
+    margin-top:500px;
+    margin-left: 875px;
+}
+#s38 {
+    animation-duration: 3s;
+    margin-top:300px;
+    margin-left: 960px;
+}
+#s39 {
+    animation-duration: 4s;
+    margin-top:300px;
+    margin-left: 50px;
+}
+#s40 {
+    animation-duration: 5s;
+    margin-top:300px;
+    margin-left: 1120px;
+}
+#s41 {
+    animation-duration: 4s;
+    margin-top:125px;
+    margin-left:1150px;
+}
+#s42 {
+    animation-duration: 9s;
+    margin-top:500px;
+    margin-left: 1240px;
+}
+#s43 {
+    animation-duration: 7s;
+    margin-top:40px;
+    margin-left:500px;
+}
+#s44 {
+    animation-duration: 13s;
+    margin-top:690px;
+    margin-left:580px;
+}
+#s45 {
+    animation-duration: 10s;
+    margin-top:640px;
+    margin-left:800px;
+}
+#s46 {
+    animation-duration: 9s;
+    margin-top:620px;
+    margin-left:200px;
+}
+#s47 {
+    animation-duration: 3s;
+    margin-top:690px;
+    margin-left:400px;
+}
+#s48 {
+    animation-duration: 7s;
+    margin-top:40px;
+    margin-left:1400px;
+}
+#s49 {
+    animation-duration: 5.5s;
+    margin-top:650px;
+    margin-left:1200px;
+}
+#s50 {
+    animation-duration: 8s;
+    margin-top:400px;
+    margin-left:1370px;
+}
+#s51 {
+    animation-duration: 17s;
+    margin-top:500px;
+    margin-left:1400px;
+}
+#s52 {
+    animation-duration: 4s;
+    margin-top:670px;
+    margin-left:1350px;
+}
+#s53 {
+    animation-duration: 7s;
+    margin-top:200px;
+    margin-left:1400px;
+}

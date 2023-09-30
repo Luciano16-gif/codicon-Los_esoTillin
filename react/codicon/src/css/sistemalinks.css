@@ -1,0 +1,307 @@
+
+#nexts{
+    display: block;
+    position: absolute;
+    top: 94%;
+    left: 88%;
+    color: white;
+    background: none;
+    font-size: 30px;
+    text-decoration: none;
+    width: 50px;
+}
+
+#omegalils{
+    position: absolute;
+    background-color: transparent;
+    top: -10px;
+    left: 200%;
+    width: 58px;
+    height: 50px;
+}
+
+.sun{
+    height: 180px;
+    width: 180px;
+    background-image: url(../img/sol.png);
+    border-radius: 50%;
+    background-size:100%;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+}
+
+.shadowsun{
+    position:absolute;
+    top: 46%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 55px;
+    height: 55px;
+    background: rgba(255, 117, 26, 1);
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 420px rgba(255, 117, 26, 1),
+                0 0 440px rgba(255, 117, 26, 1),
+                0 0 460px rgba(255, 117, 26, 1),
+                0 0 480px rgba(255, 117, 26, 1);
+    animation: box-madness 15s linear infinite;
+}
+
+@keyframes box-madness
+{
+    0%
+    {
+        transform: scale(1);
+    }
+    
+    50%
+    {
+        transform: scale(0.8);
+    }
+
+    100%
+    {
+        transform: scale(1);
+    }
+}
+.mercurio{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/caja_mercurio.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    position: absolute;
+    left: 43%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    animation: orbit2 5s linear infinite;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 100ms;
+}
+
+.mercurio:hover{
+    height: 35px;
+    width: 35px;
+}
+
+@keyframes orbit2{
+    from{transform:rotate(0deg)translate(70px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(70px) rotate(-360deg);}
+}
+
+.mercurio-linea,.venus-linea-1,.tierra-linea-1,.marte-linea-1,.jupiter-linea-1,.saturno-linea-1,.urano-linea-1,.neptuno-linea-1{
+    border-radius: 50%;
+    border: 1px dotted #ddd9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+}
+.mercurio-linea
+{
+    height: 140px;
+    width: 140px;
+}
+
+.venus{
+    height:40px;
+    width: 40px;
+    background-image: url(../img/venus.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    position: absolute;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    animation: orbit3 10s linear infinite;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 75ms;
+}
+
+.venus:hover{
+    height:45px;
+    width: 45px;
+}
+
+@keyframes orbit3{
+    from{transform:rotate(0deg)translate(100px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(100px) rotate(-360deg);}
+}
+
+.venus-linea-1
+{
+    height: 200px;
+    width: 200px;
+}
+
+.tierra{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/CAJA_TIERRA.png);
+    background-size: cover;
+   background-repeat: repeat;
+   background-position: center;
+    position: absolute;
+    left: 43%;
+    top: 42%;
+    animation: orbit4 15s linear infinite;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 75ms;
+}
+
+.tierra:hover{
+    height: 45px;
+    width: 45px;
+}
+
+@keyframes orbit4{
+    from{transform:rotate(0deg)translate(150px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(150px) rotate(-360deg);}
+}
+
+.tierra-linea-1
+{
+    height: 300px;
+    width: 300px;
+}
+
+.marte{
+    height: 35px;
+    width: 35px;
+    background-image: url(../img/marte.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    position: absolute;
+    left: 46.5%;
+    top: 46.5%;
+    transform: translate(-50%,-50%);
+    animation: orbit5 15s linear infinite;
+    background-color: transparent;
+    transition: 75ms;
+}
+
+.marte:hover{
+    height: 40px;
+    width: 40px;
+}
+
+@keyframes orbit5{
+    from{transform:rotate(0deg)translate(185px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(185px) rotate(-360deg);}
+}
+
+.marte-linea-1
+{
+    height: 370px;
+    width: 370px;
+}
+
+.jupiter{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/caja_jupiter.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    animation: orbit6 60s linear infinite;
+    background-color: transparent;
+}
+@keyframes orbit6 {
+    from{transform:rotate(0deg)translate(217px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(217px) rotate(-360deg);}
+}
+.jupiter-linea-1
+{
+    height: 430px;
+    width: 430px;
+}
+
+.saturno{
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/saturno.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    animation: orbit7 90s linear infinite;
+    background-color: transparent;
+}
+@keyframes orbit7 {
+    from{transform:rotate(0deg)translate(250px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(250px) rotate(-360deg);}
+}
+.saturno-linea-1
+{
+    height: 500px;
+    width: 500px;
+}
+
+.urano{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/caja_urano.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    position: absolute;
+    
+    left: 48%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    animation: orbit8 200s linear infinite;
+    background-color: transparent;
+}
+@keyframes orbit8 {
+    from{transform:rotate(0deg)translate(280px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(280px) rotate(-360deg);}
+}
+.urano-linea-1
+{
+    height: 560px;
+    width: 560px;
+}
+
+
+.neptuno{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/neptuno.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    position: absolute;
+    background-color: transparent;
+    left: 48%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    animation: orbit9 300s linear infinite;
+   
+}
+@keyframes orbit9 {
+    from{transform:rotate(0deg)translate(310px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(310px) rotate(-360deg);}
+}
+.neptuno-linea-1
+{
+    height: 620px;
+    width: 620px;
+}

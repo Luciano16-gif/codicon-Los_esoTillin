@@ -1,0 +1,363 @@
+/*.un{
+    height: 160px;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.537);
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -4px 2px 56px #511368ea;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ercurio{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/kepler90b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    position: absolute;
+    left: 43%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    animation: orbit2 5s linear ;
+  
+    animation:deslizamiento1 10s linear;
+    
+    
+}
+@keyframes deslizamiento1 {
+    from{
+        left: 10%;
+        top: 80%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+      }
+      
+}
+
+
+
+@keyframes orbit2{
+    from{transform:rotate(0deg)translate(70px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(70px) rotate(-360deg);}
+}
+
+
+.ercurio-linea,.enus-linea-1,.ierra-linea-1,.arte-linea-1,.upiter-linea-1,.aturno-linea-1,.rano-linea-1,.eptuno-linea-1{
+    border-radius: 50%;
+    border: 1px dotted rgba(221, 221, 221, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+}
+.ercurio-linea
+{
+    height: 140px;
+    width: 140px;
+}
+
+.enus{
+    height:40px;
+    width: 40px;
+    background-image: url(../img/kepler90d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent;
+    left: 40%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    animation: orbit3 10s linear infinite;
+    cursor: pointer;
+    
+    animation:deslizamiento2 10s linear;
+}
+@keyframes orbit3{
+    from{transform:rotate(0deg)translate(100px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(100px) rotate(-360deg);}
+}
+@keyframes deslizamiento2 {
+    from{
+        left: 30%;
+        top: 120%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+}
+.enus-linea-1
+{
+    height: 200px;
+    width: 200px;
+}
+
+.ierra{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/kepler90c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent;
+    left: 43%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    animation: orbit4 15s linear infinite;
+    cursor: pointer;
+    animation:deslizamiento3 10s linear;
+}
+@keyframes orbit4{
+    from{transform:rotate(0deg)translate(150px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(150px) rotate(-360deg);}
+}
+@keyframes deslizamiento3 {
+    from{
+        left: 200%;
+        top: 130%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+}
+.ierra-linea-1
+{
+    height: 300px;
+    width: 300px;
+}
+
+
+.arte{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/kepler90e.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent;
+    left: 46.5%;
+    top: 46.5%;
+    transform: translate(-50%,-50%);
+    animation:deslizamiento4 10s linear;
+   
+}
+@keyframes orbit5{
+    from{transform:rotate(0deg)translate(185px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(185px) rotate(-360deg);}
+}
+@keyframes deslizamiento4 {
+    from{
+        left: 1%;
+        top: -15%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+}
+.arte-linea-1
+{
+    height: 370px;
+    width: 370px;
+}
+
+
+.upiter{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/kepler90f.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    animation:deslizamiento5 10s linear;
+   
+}
+@keyframes orbit6 {
+    from{transform:rotate(0deg)translate(217px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(217px) rotate(-360deg);}
+}
+@keyframes deslizamiento5 {
+    from{
+        left: 100%;
+        top: 200%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+}
+.upiter-linea-1
+{
+    height: 430px;
+    width: 430px;
+}
+
+.aturno{
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/kepler90g.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    animation:deslizamiento6 10s linear;
+}
+@keyframes orbit7 {
+    from{transform:rotate(0deg)translate(250px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(250px) rotate(-360deg);}
+}
+@keyframes deslizamiento6 {
+    from{
+        left: -15%;
+        top: 10%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+}
+.aturno-linea-1
+{
+    height: 500px;
+    width: 500px;
+}
+
+.rano{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/kepler90i.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent;
+    left: 48%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    animation:deslizamiento7 10s linear;
+   
+}
+@keyframes orbit8 {
+    from{transform:rotate(0deg)translate(280px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(280px) rotate(-360deg);}
+}
+@keyframes deslizamiento7 {
+    from{
+        left: 120%;
+        top: 20%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+}
+.rano-linea-1
+{
+    height: 560px;
+    width: 560px;
+}
+
+
+.eptuno{
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/kepler90i.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: transparent;
+    left: 48%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    animation:deslizamiento8 10s linear;
+   
+}
+@keyframes orbit9 {
+    from{transform:rotate(0deg)translate(310px) rotate(0deg);}
+    to{transform:rotate(360deg)translate(310px) rotate(-360deg);}
+}
+@keyframes deslizamiento8 {
+    from{
+        left: 10%;
+        top: 100%;
+    }
+    to{
+        left: 50%;
+        top: 50%;
+    }
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+}
+.eptuno-linea-1
+{
+    height: 620px;
+    width: 620px;
+}*/
