@@ -5,9 +5,9 @@ function Stars() {
     
     <div id="body">
         
-        <div class="container">
+        <div className="container">
             
-            <div class="bubbles">        
+            <div className="bubbles">        
 
                 <span id="s"></span>
                 <span id="s2"></span>

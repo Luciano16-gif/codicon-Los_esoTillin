@@ -8,71 +8,71 @@ function SSSistema (){
     return(
         
         <div> 
-        <div class="planetas">
+        <div className="planetas">
             <Stars/>
-                <div class="sun"></div>
-                <div class="shadowsun"></div>
+                <div className="sun"></div>
+                <div className="shadowsun"></div>
 
-            <div class="neptuno-linea-1">
-                 <Link to="/kepler90b" class="Link">
-                     <div class="neptuno">
+            <div className="neptuno-linea-1">
+                 <Link to="/kepler90b" className="Link">
+                     <div className="neptuno">
                     </div>
                  </Link>
             </div>
 
 
-            <div class="urano-linea-1">
-                <Link to="/kepler90c" class="Link">
-                    <div class="urano">
+            <div className="urano-linea-1">
+                <Link to="/kepler90c" className="Link">
+                    <div className="urano">
                     </div>
                 </Link>
             </div>
 
-            <div class="saturno-linea-1">
-                <Link to="/kepler90d" class="Link">
-                    <div class="saturno">
+            <div className="saturno-linea-1">
+                <Link to="/kepler90d" className="Link">
+                    <div className="saturno">
                      </div>
                 </Link>
             </div>
 
-            <div class="jupiter-linea-1">
-                <Link to="/kepler90e" class="Link">
-                    <div class="jupiter">
+            <div className="jupiter-linea-1">
+                <Link to="/kepler90e" className="Link">
+                    <div className="jupiter">
                     </div>
                 </Link>
             </div>
             
-            <div class="marte-linea-1">
-                <Link to="/kepler90f" class="Link">
-                    <div class="marte">
+            <div className="marte-linea-1">
+                <Link to="/kepler90f" className="Link">
+                    <div className="marte">
                     </div>
                 </Link>
             </div>
 
-            <div class="tierra-linea-1">
-                <Link to="/kepler90b" class="Link">
-                    <div class="tierra">
+            <div className="tierra-linea-1">
+                <Link to="/kepler90b" className="Link">
+                    <div className="tierra">
                     </div>
                 </Link>
             </div>
 
-            <div class="venus-linea-1">
-                <Link to="/kepler90h" class="Link">
-                    <div class="venus">
+            <div className="venus-linea-1">
+                <Link to="/kepler90h" className="Link">
+                    <div className="venus">
                     </div>
                 </Link>
             </div>
             
-            <div class="mercurio-linea">
-                <Link to="/kepler90i" class="Link">
-                    <div class="mercurio">
+            <div className="mercurio-linea">
+                <Link to="/kepler90i" className="Link">
+                    <div className="mercurio">
                     </div>
                 </Link>
             </div>
         </div>
         <Link to="/black" id="nexts">
-                <div class="transparent">
-                     <p class="transparent">Siguiente</p> <img src={cerrada} id="omegalils" alt="" />
+                <div className="transparent">
+                     <p className="transparent">Siguiente</p> <img src={cerrada} id="omegalils" alt="" />
                 </div>
             </Link>
         </div>  

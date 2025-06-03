@@ -7,9 +7,9 @@ function Kepler90g (){
     return (
         
         <div >
-            <Stars class="boy"/>
-            <div class="kek">
-                <p class="xlr8">
+            <Stars className="boy"/>
+            <div className="kek">
+                <p className="xlr8">
                     El sistema Kepler-90 tiene un total de 8 planetas confirmados en órbita 
                     alrededor de su estrella, Kepler-90, que es similar al Sol en tamaño 
                     y temperatura.
@@ -22,9 +22,9 @@ function Kepler90g (){
                     sí, lo que indica que los sistemas planetarios pueden ser más compactos 
                     de lo que se pensaba.</p>
             </div>
-            <div class="description">
-                <p class="xlr8">
-                    <h1 class="xlr8">Kepler-90g</h1>
+            <div className="description">
+                <p className="xlr8">
+                    <h1 className="xlr8">Kepler-90g</h1>
                     <br />
                     Es uno de los planetas más interesantes del sistema. Es un poco más 
                     grande que la Tierra y tiene una temperatura superficial de alrededor 
@@ -35,7 +35,7 @@ function Kepler90g (){
                 </p>
             </div>
             <div>
-                <img class="freddy" id="kepler90g" src={keplar90g} alt="kepler90g"/>
+                <img className="freddy" id="kepler90g" src={keplar90g} alt="kepler90g"/>
             </div>
         </div>
     )

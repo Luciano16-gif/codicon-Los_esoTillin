@@ -60,7 +60,7 @@ function Bigbang() {
                 </div>
 
                 <div id="text">     
-                    <p class="transparent"><h1 class="transparent">Caja Universal</h1>
+                    <p className="transparent"><h1 className="transparent">Caja Universal</h1>
                     <br />
                     Cada vez que nos proponemos un objetivo, nos embarcamos en una aventura llena de incertidumbres 
                     y sorpresas. Como abrir una caja, el camino hacia nuestros objetivos es un proceso en el que no sabemos con certeza qué 
@@ -72,13 +72,13 @@ function Bigbang() {
                 </div>
 
                 <Link to="/system" id="nexts">
-                    <div class="transparent">
-                        <p class="transparent" id="trulu">Siguiente</p> <img src={cerrada} id="omegalil" alt="" />
+                    <div className="transparent">
+                        <p className="transparent" id="trulu">Siguiente</p> <img src={cerrada} id="omegalil" alt="" />
                     </div>
                 </Link>
 
-                <div class="transparent">
-                    <p id="nebultext" class="transparent">Esta es la Nebulosa de Orion
+                <div className="transparent">
+                    <p id="nebultext" className="transparent">Esta es la Nebulosa de Orion
                     <br />
                     La Nebulosa de Orión es una nebulosa brillante en el cielo nocturno, también conocida 
                     como Messier 42 o NGC 1976. Se encuentra en la constelación de Orión, a unos 1.344 años luz de distancia 
@@ -89,7 +89,7 @@ function Bigbang() {
                     <div id="pruv" onClick={apple}/>
                 </div>
 
-                <div class="polvo">
+                <div className="polvo">
                     <div>
                         <img id="nebulosa" src={nebulosa} alt="" />
                     </div>

@@ -7,9 +7,9 @@ function Kepler90c (){
     return (
         
         <div >
-            <Stars class="boy"/>
-            <div class="kek">
-                <p class="xlr8">
+            <Stars className="boy"/>
+            <div className="kek">
+                <p className="xlr8">
                     El sistema Kepler-90 tiene un total de 8 planetas confirmados en órbita alrededor 
                     de su estrella, Kepler-90, que es similar al Sol en tamaño y temperatura.
                     <br />
@@ -21,9 +21,9 @@ function Kepler90c (){
                     sí, lo que indica que los sistemas planetarios pueden ser más compactos 
                     de lo que se pensaba.</p>
             </div>
-            <div class="description">
-                <p class="xlr8">
-                    <h1 class="xlr8">Keplar-90c</h1>
+            <div className="description">
+                <p className="xlr8">
+                    <h1 className="xlr8">Keplar-90c</h1>
                     <br />
                     Es el segundo planeta del sistema y orbita a una distancia de 0,014 UA. Tiene 
                     un tamaño similar al de la Tierra y completa una órbita alrededor de Kepler-90 
@@ -36,7 +36,7 @@ function Kepler90c (){
                 </div>
             </div>
             <div>
-                <img class="freddy" id="keplar90c" src={kepler90c} alt="keplar90c"/>
+                <img className="freddy" id="keplar90c" src={kepler90c} alt="keplar90c"/>
             </div>
         </div>
     )

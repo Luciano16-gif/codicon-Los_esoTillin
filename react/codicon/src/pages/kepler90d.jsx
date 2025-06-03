@@ -7,9 +7,9 @@ function Kepler90d (){
     return (
         
         <div >
-            <Stars class="boy"/>
-            <div class="kek">
-                <p class="xlr8">
+            <Stars className="boy"/>
+            <div className="kek">
+                <p className="xlr8">
                     Seguramente ya te habrás dado cuenta pero estas cajas no represetan el planeta que contienen,
                     Y eso es porque esta página representa el proceso a un fin y en ese proceso de alcanzar nuestros objetivos, 
                     podemos encontrarnos con situaciones que nos sorprenden y que ponen a prueba nuestra capacidad de adaptación y 
@@ -21,9 +21,9 @@ function Kepler90d (){
                     pensar que sabemos lo que hay dentro, pero en realidad es una incertidumbre que solo se despeja cuando nos atrevemos 
                     a abrirla y enfrentar lo que hay dentro.</p>
             </div>
-            <div class="description">
-                <p class="xlr8">
-                    <h1 class="xlr8">Kepler-90d</h1>
+            <div className="description">
+                <p className="xlr8">
+                    <h1 className="xlr8">Kepler-90d</h1>
                     <br />
                     Este es el planeta más grande del sistema, con un tamaño similar a Neptuno. 
                     Es un planeta gaseoso con una densidad mucho menor que la de la Tierra.
@@ -35,7 +35,7 @@ function Kepler90d (){
                 </div>
             </div>
             <div>
-                <img class="freddy" id="kepler90d" src={k90d} alt="kepler90d"/>
+                <img className="freddy" id="kepler90d" src={k90d} alt="kepler90d"/>
             </div>
         </div>
     )
