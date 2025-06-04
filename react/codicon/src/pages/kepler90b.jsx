@@ -7,9 +7,9 @@ function Kepler90b (){
     return (
         
         <div >
-            <Stars class="boy"/>
-            <div class="kek">
-                <p class="xlr8">
+            <Stars className="boy"/>
+            <div className="kek">
+                <p className="xlr8">
                     El sistema Kepler-90 tiene un total de 8 planetas confirmados en órbita 
                     alrededor de su estrella, Kepler-90, que es similar al Sol en tamaño 
                     y temperatura.
@@ -22,9 +22,9 @@ function Kepler90b (){
                     sí, lo que indica que los sistemas planetarios pueden ser más compactos 
                     de lo que se pensaba.</p>
             </div>
-            <div class="description">
-                <p class="xlr8">
-                    <h1 class="xlr8">Kepler-90b</h1>
+            <div className="description">
+                <p className="xlr8">
+                    <h1 className="xlr8">Kepler-90b</h1>
                     <br />
                     Es el planeta más cercano a su estrella y tiene una órbita muy cercana, lo 
                     que significa que es un planeta caliente con una temperatura superficial 
@@ -38,7 +38,7 @@ function Kepler90b (){
                 </div>
             </div>
             <div>
-                <img class="freddy" id="kepler90b" src={k90b} alt="kepler90b"/>
+                <img className="freddy" id="kepler90b" src={k90b} alt="kepler90b"/>
             </div>
         </div>
     )

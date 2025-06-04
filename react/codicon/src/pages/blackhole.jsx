@@ -38,9 +38,9 @@ function Blackhole () {
                     <div className="odo">
                         <div className="lanetas">
                         
-                        <div class="agh">
+                        <div className="agh">
                             <Stars></Stars>
-                            <div class="loco" onClick={appereance}>
+                            <div className="loco" onClick={appereance}>
                                 <img id="mecorro" src={cerrada} alt="" />
                             </div>
                         </div>
