@@ -1,5 +1,19 @@
 # codicon-Los_esoTillin
-jesucristo en ti confío
-This was a project made for the lexpin's event codicon, where I worked with 3 friends, Arantza (she made the majority jpg and png), Sebastian Valdez with was in lexpin's course but not at the same stage as me,
-and Mauricio Chacin wich didn't know almost anything about coding at the time he joined the project.
-In the end I learned a lot about having good pratices while working in group to have efficients results.
+
+This repository contains the front‑end source code produced during the Codicon event.
+It is a React application located under `react/codicon`.
+
+## Getting started
+
+1. Install dependencies:
+   ```bash
+   cd react/codicon
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm start
+   ```
+   The app runs on [http://localhost:3005](http://localhost:3005).
+
+The project was created with teammates Arantza, Sebastián Valdez and Mauricio Chacin. Working on this helped me learn good practices while collaborating as a group.
