@@ -1,6 +1,5 @@
 import "../css/blackhole.css"
 import "../css/blackger.css"
-import "../utils/agujeronegro.js"
 import { useEffect } from "react";
 import cerrada from "../img/cerrada.png";
 import Stars from "./stars";
